@@ -6,6 +6,7 @@ import './App.css';
 import SideBar from './component/sideBar';
 import Details from './component/About';
 
+
 function App() {
   return (
     <div>

@@ -6,6 +6,9 @@ import LanguagePage from "./LanguagePages"
 import Address from "./AddressPage";
 
 export default function Navbar() {
+    function submit() {
+        return console.log("you've successfuly submit");
+    }
     return(
         <div className="containerNavbar" id="containerNavbar">
             <div className="name">
@@ -16,7 +19,7 @@ export default function Navbar() {
                     frontend and backend developer
                 </span>
             </div>
-            <button className="btn btn-success">listenners</button>
+            <button onClick={submit} className="btn btn-success">listenners</button>
             <Address />
             <LanguagePage  />
             <Skills />
