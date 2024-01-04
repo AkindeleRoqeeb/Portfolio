@@ -2,7 +2,7 @@ import React from "react";
 
 const Languages = () => {
     return (
-        <div className="languages">
+        <div className="row">
             <div>
                 <div>
                     100%

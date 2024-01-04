@@ -5,24 +5,36 @@ import Skills from "./Skills";
 import LanguagePage from "./LanguagePages"
 import Address from "./AddressPage";
 
+import profileLogo from  "../Image/profileImg.jpg"
+
+// styles
+import "../styles/sidebarstyle.css"
+
 export default function Navbar() {
     function submit() {
         return console.log("you've successfuly submit");
     }
+
+    const firstName = "akindele"
+    const lastName = "Roqeeb"
+
+    // const date = new Date()
+
     return(
-        <div className="containerNavbar" id="containerNavbar">
-            <div className="name">
-                <img src={require('../Image/profileImg.jpg')}/>
-                {/* <img id="image" className="profileimg" src={profileimg} alt="" /> */}
-                <h5>akindele roqeeb</h5>
+        <main className="" id="containerNavbar">
+            <div className="text-center">
+                <div className="logo-container">
+                    <img className="profilelogo" src={profileLogo} />
+                </div>
+                <h5>{firstName} {lastName}</h5>
+                {/* <span>it's about to change from {date.toLocaleTimeString()} to {date.getHours() % 12}</span> */}
                 <span>
                     frontend and backend developer
                 </span>
             </div>
-            <button onClick={submit} className="btn btn-success">listenners</button>
             <Address />
             <LanguagePage  />
             <Skills />
-        </div>
+        </main>
     );
 };

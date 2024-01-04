@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
     return (
-        <div className="containerskill">
+        <section className="containerskill">
             <div className="htmlskill_container">
                 <div className="">
                     <span className="skillName">html</span>
@@ -59,7 +59,7 @@ const Skills = () => {
                     <div></div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

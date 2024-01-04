@@ -2,29 +2,28 @@ import React from "react";
 
 function Address() {
     return (
-        <div className="address">
-            {/* <var className=""></var> */}
-            <div className="residence">
-                <strong>
+        <div className="p-10">
+            <div className="row">
+                <strong className="col">
                     residence
                 </strong>
-                <strong>
+                <strong className="col">
                     Nigeria
                 </strong>
             </div>
-            <div className="city">
-                <strong>
+            <div className="row">
+                <strong className="col">
                     city
                 </strong>
-                <strong>
+                <strong className="col">
                     Nigeria
                 </strong>
             </div>
-            <div className="age">
-                <strong>
+            <div className="row">
+                <strong className="col">
                     age
                 </strong>
-                <strong>
+                <strong className="col">
                     Nigeria
                 </strong>
             </div>

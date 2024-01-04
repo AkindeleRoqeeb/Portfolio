@@ -1,0 +1,10 @@
+.logo-container{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    /* padding: ; */
+}
+
+.profilelogo{
+    max-width: 100px;
+}

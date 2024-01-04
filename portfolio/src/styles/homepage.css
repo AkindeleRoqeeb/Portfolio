@@ -1,0 +1,12 @@
+#imgcontainer {
+    background: url('../Image/image-rock7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px;
+    height: 100px;
+}
+
+#bg-text{
+    line-height: 30px;
+}

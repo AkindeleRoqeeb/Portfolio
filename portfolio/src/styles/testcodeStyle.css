@@ -1,0 +1,10 @@
+img  {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
