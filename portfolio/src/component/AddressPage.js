@@ -2,29 +2,29 @@ import React from "react";
 
 function Address() {
     return (
-        <div className="p-10">
-            <div className="row">
-                <strong className="col">
+        <div className="d-flex flex-column">
+            <div className="d-flex justify-content-between">
+                <strong className="">
                     residence
                 </strong>
-                <strong className="col">
+                <strong className="">
                     Nigeria
                 </strong>
             </div>
-            <div className="row">
-                <strong className="col">
+            <div className="d-flex justify-content-between">
+                <strong className="">
                     city
                 </strong>
-                <strong className="col">
-                    Nigeria
+                <strong className="">
+                    ahuja
                 </strong>
             </div>
-            <div className="row">
-                <strong className="col">
+            <div className="d-flex justify-content-between">
+                <strong className="">
                     age
                 </strong>
-                <strong className="col">
-                    Nigeria
+                <strong className="">
+                    22
                 </strong>
             </div>
         </div>

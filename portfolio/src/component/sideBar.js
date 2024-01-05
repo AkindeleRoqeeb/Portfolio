@@ -24,7 +24,7 @@ export default function Navbar() {
         <main className="" id="containerNavbar">
             <div className="text-center">
                 <div className="logo-container">
-                    <img className="profilelogo" src={profileLogo} />
+                    <img className="profilelogo rounded-5" src={profileLogo} />
                 </div>
                 <h5>{firstName} {lastName}</h5>
                 {/* <span>it's about to change from {date.toLocaleTimeString()} to {date.getHours() % 12}</span> */}

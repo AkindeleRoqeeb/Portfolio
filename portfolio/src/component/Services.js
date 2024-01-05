@@ -7,7 +7,7 @@ function Services() {
                 <h4>
                     my services
                 </h4>
-                <div className="col-md-6 col-sm-0 card">
+                <div className="col-md-6 col-sm-0 card border border-3 border-success">
                     <h4 className="card-title">
                         web development
                     </h4>

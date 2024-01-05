@@ -2,24 +2,30 @@ import React from "react";
 
 const Languages = () => {
     return (
-        <div className="row">
-            <div>
-                <div>
-                    100%
+        <div className="row row-cols-3">
+            <div className="bg-white text-dark rounded-pill col">
+                <div className="bg-warning rounded-pill w-3">
+                    <span>
+                        100%
+                    </span>
                 </div>
                 <strong>english</strong>
             </div>
-            <div>
-                <div>
+            <div className="bg-white text-dark rounded-pill col">
+                <div className="bg-warning rounded-pill w-3">
                     <div>
-                        60%
+                        <span>
+                            60%
+                        </span>
                     </div>
                     <strong>rusia</strong>
                 </div>
             </div>
-            <div>
-                <div>
-                    67%
+            <div className="bg-white text-dark rounded-pill col">
+                <div className="bg-warning rounded-pill w-3">
+                    <span>
+                        67%
+                    </span>
                 </div>
                 <strong>
                     yoruba
