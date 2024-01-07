@@ -4,11 +4,11 @@ function Services() {
     return (
         <section>
             <div className="row">
-                <h4>
+                <h4 className="p-2">
                     my services
                 </h4>
-                <div className="col-md-6 col-sm-0 card border border-3 border-success">
-                    <h4 className="card-title">
+                <div className="col-md-6 col-sm-0 card border border-2 border-warning p-2" style={{color: "black", fontWeight: "bold"}}>
+                    <h4 className="card-title" style={{fontWeight: "bold"}}>
                         web development
                     </h4>
                     <p>
@@ -17,6 +17,7 @@ function Services() {
                     In my seven years in this industry, I've honed my analytical thinking 
                     and collaboration skills, and I love working with a team.
                     </p>
+                    <a className="" href="">order now </a> //arow
                 </div>
                 <div className="col-md-6 col-sm-0">
                     <h4>
@@ -28,6 +29,7 @@ function Services() {
                     In my seven years in this industry, I've honed my analytical thinking 
                     and collaboration skills, and I love working with a team.
                     </p>
+                    <a className="text-warning" href="">order now </a> //arow
                 </div>
                 <div className="col-md-6">
                     <h4>
@@ -39,6 +41,7 @@ function Services() {
                     In my seven years in this industry, I've honed my analytical thinking 
                     and collaboration skills, and I love working with a team.
                     </p>
+                    <a className="text-warning" href="">order now </a> //arow
                 </div>
                 <div className="col-md-6">
                     <h4>
@@ -50,6 +53,7 @@ function Services() {
                     In my seven years in this industry, I've honed my analytical thinking 
                     and collaboration skills, and I love working with a team.
                     </p>
+                    <a className="text-warning" href="">order now </a>
                 </div>
             </div>
         </section>

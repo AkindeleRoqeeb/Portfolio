@@ -5,19 +5,19 @@ function Complement(){
         <div className="row d-flex row justify-content-between">
             <div className="col d-flex">
                 <h4 className="">02+</h4>
-                <span>years experience</span>
+                <span>years&nbsp;experience</span>
             </div>
             <div className="col d-flex">
                 <h4 className="">132+</h4>
-                <span>completed projects</span>
+                <span>completed&nbsp;projects</span>
             </div>
             <div className="col d-flex">
                 <h4 className="">112+</h4>
-                <span>happy customer</span>
+                <span>happy&nbsp;customer</span>
             </div>
             <div className="col d-flex">
                 <h4 className="">15+</h4>
-                <span>honor award</span>
+                <span>honor&nbsp;award</span>
             </div>
         </div>
     )

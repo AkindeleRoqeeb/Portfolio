@@ -2,7 +2,7 @@ import React from "react";
 
 function Address() {
     return (
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column mb-5 mt-5">
             <div className="d-flex justify-content-between">
                 <strong className="">
                     residence

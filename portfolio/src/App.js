@@ -97,7 +97,7 @@ function App() {
 
         {/* <Codetester /> */}
         
-        <div className=' col-md-6'>
+        <div className=" col-md-6 p-4 pt-0 pb-2">
           <SideBar />
         </div>
         <div className=' col-md-6'>

@@ -1,0 +1,97 @@
+
+
+.skill{
+    width: 70px;
+    height: 70px;
+    /* background-color: orangered; */
+    position: relative;
+}
+
+
+.outer {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    /* background-color: orangered; */
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), 
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+.inner{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orangered; */
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 10px -1px rgba(0, 0, 0, 02), 
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px 
+    rgba(255, 255, 255, 1), 0.5px 0.5px 0px 
+    rgba(0, 0, 0, 0.15), 0px 12px 10px -10px 
+    rgba(0, 0, 0, 0.05);
+}
+
+#number{
+    font-weight: 600;
+}
+
+/* circle 1 */
+
+.circle1{
+    fill: none;
+    stroke: orange;
+    stroke-width: 15px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: circle1 4s linear forwards;
+}
+
+@keyframes circle1 {
+    100% {
+        stroke-dashoffset: 260.5;
+    }
+}
+
+/* circle 2 */
+
+.circle2{
+    fill: none;
+    stroke: orange;
+    stroke-width: 15px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: circle2 4s linear forwards;
+}
+
+@keyframes circle2 {
+    100% {
+        stroke-dashoffset: 330.5;
+    }
+}
+
+/* circle 3 */
+
+.circle3{
+    fill: none;
+    stroke: orange;
+    stroke-width: 15px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: circle3 4s linear forwards;
+}
+
+@keyframes circle3 {
+    100% {
+        stroke-dashoffset: 230.5;
+    }
+}
+
+svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}

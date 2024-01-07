@@ -5,6 +5,7 @@ import React from "react";
 // import SocialMedia from './SocialMediaPage'
 import Complement from "./complement";
 import Services from "./Services";
+import BlogPage from "./Blogs";
 
 // import style
 import '../styles/homepage.css'
@@ -22,7 +23,7 @@ function HomePage() {
                     <strong>
                         &lt;code&gt; i build | &lt;/code&gt;
                     </strong> <br/>
-                    <button className="btn btn-light btn-sm mt-2">download cv</button>
+                    <button className="shadow-lg btn btn-light btn-sm mt-2">download cv</button>
                 </div>
                 <img 
                     src={require('../Image/userprofile.png')} 
@@ -36,6 +37,7 @@ function HomePage() {
                 {/* <SocialMedia /> */}
                 <Complement />
                 <Services />
+                <BlogPage />
             </div>
         </div>
     )
