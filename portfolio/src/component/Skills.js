@@ -4,8 +4,8 @@ import '../styles/skill.css'
 
 const Skills = () => {
     return (
-        <section className="containerskill">
-            <div className="htmlskill_container">
+        <section className="containerskill mb-5 pt-5">
+            <div className="htmlskill_container mb-4">
                 <div className="">
                     <div className="d-flex justify-content-between">
                         <span className="skillName">html</span>
@@ -16,7 +16,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <div className="containerstyles">
+            <div className="containerstyles mb-4">
                 <div className="d-flex justify-content-between">
                     <span className="skillName">
                         css/scss/tailwindcss/bootstrap
@@ -27,7 +27,7 @@ const Skills = () => {
                     <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-end-pill" style={{ width: "85%" }}></div>
                 </div>
             </div>
-            <div className="javascript_container">
+            <div className="javascript_container mb-4">
                 <div className="d-flex justify-content-between">
                     <span className="skillName">javascript</span>
                     <span className="percentage">67%</span>
@@ -36,7 +36,7 @@ const Skills = () => {
                     <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-end-pill" style={{ width: "65%" }}></div>
                 </div>
             </div>
-            <div className="typescript_container">
+            <div className="typescript_container mb-4">
                 <div className="d-flex justify-content-between">
                     <span className="html">typescript</span>
                     <span className="html">67%</span>
@@ -45,7 +45,7 @@ const Skills = () => {
                     <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-end-pill" style={{ width: "55%" }}></div>
                 </div>
             </div>
-            <div className="python_container">
+            <div className="python_container mb-4">
                 <div className="d-flex justify-content-between">
                     <span className="python">python</span>
                     <span className="html">67%</span>
@@ -54,7 +54,7 @@ const Skills = () => {
                     <div className="progress-bar progress-bar-striped progress-bar-animated bg-warning rounded-end-pill" style={{ width: "45%" }}></div>
                 </div>
             </div>
-            <div>
+            <div className="mb-4">
                 <div className="d-flex justify-content-between">
                     <span className="html">html</span>
                     <span className="html">67%</span>

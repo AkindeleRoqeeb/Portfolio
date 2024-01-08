@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import LanguagePage from "./LanguagePages"
 import Address from "./AddressPage";
 import Profile from "./ProfileInfo"
+import SocialMediaPage from "./socialMedia";
 
 
 // styles
@@ -18,7 +19,12 @@ export default function Navbar() {
             <Profile />
             <Address />
             <LanguagePage  />
-            <Skills />
+            <div className="mt-5">
+                <Skills />
+            </div>
+            <div>
+            <SocialMediaPage/>
+            </div>
         </main>
     );
 };
