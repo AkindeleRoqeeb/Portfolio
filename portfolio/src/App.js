@@ -8,6 +8,7 @@ import SideBar from './component/sideBar';
 import Services from './component/Services';
 import HomePage from './component/Homepage';
 import Footer from './component/Footer';
+import ContactMe from './component/ContactMe';
 
 
 
@@ -104,6 +105,7 @@ function App() {
         <div className=' col-md-6'>
         <HomePage />
         </div>
+        <ContactMe />
         <div className=''>
           <Footer />
         </div>

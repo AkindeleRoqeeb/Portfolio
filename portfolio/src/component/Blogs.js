@@ -31,6 +31,7 @@ function BlogPage() {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            
         </main>
     )
 }

@@ -17,7 +17,7 @@ const Languages = () => {
 
     return (
         <div className=" d-flex justify-content-evenly row-cols-5 justify-content-md-between justify-content-center mt-3 mb-5">
-            <div className="skill" id="carryBody">
+            <div className="skill me-5" id="carryBody">
                 <div className="outer">
                     <div className="inner">
                         <div id="number">
@@ -38,7 +38,7 @@ const Languages = () => {
                     english
                 </span>
             </div>
-            <div className="skill" id="carryBody">
+            <div className="skill me-5" id="carryBody">
                 <div className="outer">
                     <div className="inner">
                         <div id="number">

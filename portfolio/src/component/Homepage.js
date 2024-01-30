@@ -25,10 +25,10 @@ function HomePage() {
                     </strong> <br/>
                     <button className="shadow-lg btn btn-light btn-sm mt-2">download cv</button>
                 </div>
-                <img 
+                <img
                     src={require('../Image/userprofile.png')} 
-                    alt="" 
-                    className="position-absolute top-2 bottom-0 end-0"
+                    alt=""
+                    className="position-absolute top-2 bottom-0 end-0 d-none d-md-block d-lg-block"
                     id=""
                 />
             </div>
